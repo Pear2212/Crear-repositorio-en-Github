@@ -1,0 +1,33 @@
+/************************ Acerca De ******************************/
+
+.main-acerca {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
+.main-acerca h2 {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.main-acerca section {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    
+}
+
+.main-acerca section img {
+    width: 300px;
+    
+}
+
+.main-acerca p {
+    margin-top: 10px;
+}
+

@@ -1,0 +1,55 @@
+
+
+/************************* ubicación ********************/
+
+
+
+/* Main Ubicación */
+
+.main-ubicacion {
+    background-color: white;
+}
+
+.main-ubicacion h2{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+}
+
+.main-ubicacion h2 p {
+    margin-top: 10px;
+}
+
+.main-ubicacion h3{
+    margin-top: 25px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.main-ubicacion iframe {
+    width: 50%;
+    height: 50%;
+}
+
+.main-ubicacion section{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+.main-ubicacion{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-ubicacion img {
+    width: 70%;
+}
+
+
+
