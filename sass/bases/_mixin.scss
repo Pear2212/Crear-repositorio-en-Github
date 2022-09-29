@@ -1,0 +1,9 @@
+@mixin pieDePagina {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: lightgray;
+    background-color: #434343;
+}
