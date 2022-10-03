@@ -5,8 +5,9 @@
 }
 
 header {
-  background: rgb(9, 6, 57);
-  background: linear-gradient(0deg, rgb(9, 6, 57) 29%, rgb(0, 21, 240) 79%);
+  background: rgb(5,56,83);
+  background: linear-gradient(0deg, rgba(5,56,83,1) 3%, rgba(14,128,238,1) 58%);
+  
 }
 header h1 {
   color: #0000ff;
@@ -225,11 +226,19 @@ body {
   height: 50%;
 }
 
-.main-ubicacion section {
+.section-ubicacion {
   display: flex;
-  flex-flow: column wrap;
+  flex-flow: row wrap;
   justify-content: center;
   align-items: center;
+}
+
+.section-ubicacion img {
+  width: 32%;
+  height: 250px;
+  margin-top: 15px;
+  margin-left: 1%;
+  
 }
 
 .main-ubicacion {
@@ -239,22 +248,37 @@ body {
   align-items: center;
 }
 
-.main-ubicacion img {
-  width: 70%;
-}
+
+
 
 /************************ Lubricentro **********************/
 .main-lubri {
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
+  align-items: center;
+}
+
+.div-lubri img {
+width: 100%;
+}
+
+.section-uno img {
+width: 100%;
 }
 
 .section-dos {
   display: flex;
-  flex-flow: column wrap;
+  flex-flow: row wrap;
   justify-content: center;
   align-items: center;
+
+}
+
+.section-dos img {
+  width: 42%;
+  margin-left: 15px;
+  border-radius: 10px;
 }
 
 /************************ Acerca De ******************************/

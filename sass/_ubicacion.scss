@@ -1,55 +1,47 @@
-
-
-/************************* ubicación ********************/
-
-
-
-/* Main Ubicación */
-
 .main-ubicacion {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+      
+   
+   
     background-color: white;
-}
 
-.main-ubicacion h2{
+  }
+
+  
+     h2 {
     margin-top: 15px;
     margin-bottom: 15px;
     margin-left: 10px;
-}
-
-.main-ubicacion h2 p {
+  }
+  
+    p {
     margin-top: 10px;
-}
-
-.main-ubicacion h3{
+  }
+  
+    h3 {
     margin-top: 25px;
     margin-bottom: 15px;
     margin-left: 10px;
     margin-right: 10px;
     display: flex;
     justify-content: center;
-}
-
-.main-ubicacion iframe {
+  }
+  
+    iframe {
     width: 50%;
     height: 50%;
-}
+  }
+  
 
-.main-ubicacion section{
+  .section-ubicacion {
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
     align-items: center;
-}
-.main-ubicacion{
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    align-items: center;
-}
 
-.main-ubicacion img {
-    width: 70%;
-}
-
-
-
+    margin-top: 15px;
+  }
+  
