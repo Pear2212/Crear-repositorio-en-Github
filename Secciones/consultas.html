@@ -23,10 +23,7 @@
 <header>
     
     
-    <a id="Arriba" href="#Abajo">Ir abajo</a>
-    <p> Since 1952... </p>
-    <h1>  YPF
-        Alciati
+  
         </h1>
         <nav class="navbar navbar-expand-lg navbar-light">
           <div class="container-fluid div-principal">
@@ -36,56 +33,117 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
               <div class="navbar-nav container-div">
-                <a class="nav-link nav-todos" aria-current="page" href="../index.html">Inicio</a>
-                <a class="nav-link nav-todos" href="./servicios.html">Servicompras</a>
-                <a class="nav-link nav-todos" href="./ubicacion.html">Ubicación</a>
-                <a class="nav-link nav-todos" href="./productos.html">Lubricentro</a>
-                <a class="nav-link nav-todos" href="./consultas.html">Consultas</a>
-                <a class="nav-link nav-todos" href="./galeria.html">Acerca de</a>
+                <a class="nav-todos" aria-current="page" href="../index.html">Inicio</a>
+                <a class="nav-todos" href="./servicios.html">Servicompras</a>
+                <a class="nav-todos" href="./ubicacion.html">Ubicación</a>
+                <a class="nav-todos" href="./productos.html">Lubricentro</a>
+                <a class="nav-todos" href="./consultas.html">Consultas</a>
               </div>
             </div>
           </div>
         </nav>
     <h2>¿En qué podemos ayudarte?</h2>
 </header>
-<main>
-    <h2> En este sector, estamos del otro lado de la pantalla para ayudarte con lo que necesites.</h2>
+<main class="main-consultas">
+<img class="banner-consultas" src="../Imagenes/bannerypf.consultas.png" alt="">
+
+    <h3 class="h3-con"> En este sector, estamos del otro lado de la pantalla para ayudarte con lo que necesites.</h3>
 
     <p>Consultas generales:</p>
 
-    <ul>
-        <li>"¿Cuentan con baños equipados?" </li>
-<p>Sí, están equipados para todos, y contamos con baños para personas con capacidades diferente.</p>
-<img src="../Imagenes/Entrada baños..jpeg" alt="Vista del ingreso a los baños.">
+    <div class="accordion" id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            ¿Cuentan con baños?
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>Sí.</strong> Nuestros baños son de fácil acceso, están equipados por dentro para personas con capacidades diferentes, y cuenta con un acceso rampa con baranda para que lo utilicen de manera segura. No contamos con duchas.
+          
+          </div>
+          <img class="img-accordion" src="../Imagenes/Entrada baños..jpeg" alt="Vista por fuera de los baños.">
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            ¿A qué hora abren/cierran?
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>¡Nunca!</strong> Estamos abiertos todos los días del año, las 24 horasdel día. Aunque sea feriado, navidad, año nuevo, siempre estará alguno de nosotros para atender tu necesidad.
+          </div>
+          <img class="img-accordion" src="../Imagenes/contultados.jpg" alt="">
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingFour">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            ¿Con qué medios de pago se puede abonar?
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>Todos los medios.</strong> Contamos con un medio de pago propio, la APP YPF, donde obtendrás descuentos y promociones únicas. También, aceptamos tarjetas débito/crédito, efectivo, billeteras virtuales, cheques y transferencias bancarias.
+          </div>
+          <img class="img-accordion" src="../Imagenes/consultatres.jpg" alt="">
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingFour">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+            ¿Cuenta con estacionamiento?
+          </button>
+        </h2>
+        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>Así es.</strong> En el sector playa, tenemos 3 lugares para estacionamiento: 2 estacionamientos techados, y uno al aire libre. Todos pueden ser usados por los clientes mientras dure su estadía.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingFive">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseThree">
+            ¿Cómo llegamos hasta la estación?
+          </button>
+        </h2>
+        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            Fácil. Contamos con 3 ingresos: el primero, ubicado en calle Doctor Benito de Miguel, en sentido a Ruta 7; el segundo, ubicado en calle Francia; y el tercero, ubicado en calle José Hernandez.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseThree">
+            ¿Venden el albúm y figuritas del mundial?
+          </button>
+        </h2>
+        <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>Lamentablemente, no.</strong> Pero compartimos, al igual que cada argentino, la pasión y la alegría que nos produce ver a una delegación argentina defender los colores y honor de nuestro país.
+          </div>
+        </div>
+      </div>
+      
+    </div>
 
-        <li>"¿Horario de apertura/cierre?"</li>
-<p>Nos van a encontrar abiertos todos los días del año, las 24 horas.</p>
 
-        <li>"¿Se puede abonar con tarjeta?"</li>
-<p>Nuestros medios de pago son: efectivo; tarjetas de débito/crédito; App YPF (tiene descuento y beneficios); Cuenta D.N.I y BNA+. Por otro medio de pago, consulte!</p>
-
-        <li>"¿Cuentan con estacionamiento?"</li>
-<p>Sí, tenemos estacionamientos techados y al aire libre.</p>
-<img src="../Imagenes/Estacionamiento.jpeg" alt="Vista del estacionamiento techado.">
-
-        <li>"¿Venden garrafas?"</li>
-<p>Tenemos en stock garrafas de 10 kilos y de 45 kilos, las 24 horas del día (o hasta agotar stock).</p>
-<img src="../Imagenes/Sector garrafas.jpeg" alt="Mueble donde se almacenan las garrafas.">
-
-    </ul>
 </main>
 
 
 <footer>
     
-        <ul>  
-             <a href="https://www.facebook.com/alciati.ypf">Facebook </a>
+        <ul class="ul-footer">  
+             <a class="link-footer" href="https://www.facebook.com/alciati.ypf"><img class="img-footer" src="../Imagenes/footer.facebook.jpg" alt=""></a>
            
-            <a href="https://www.instagram.com/alciatiypf/">Instagram</a>
+            <a class="link-footer" href="https://www.instagram.com/alciatiypf/"><img class="img-footer" src="../Imagenes/footer.insta.jpg" alt=""></a>
         </ul>
         
 
-    <a id="Abajo" href="#Arriba">Ir arriba</a>
 </footer>
 
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
